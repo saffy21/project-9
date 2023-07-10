@@ -69,15 +69,18 @@
 
 ###  Go to Jenkins web console, click “New Item” enter an item name and create a “Freestyle project”
 
-![creating an item](image.jpg)
+![creating an item](./images_9/creating_an_item_on_jenkins.png)
 
 ### To connect your GitHub repository from Jenkins, you will need to provide its URL, you can copy from the repository itself
 
 ![copying http from github tooling repository](./images_9/copy_http_url_from_github_tooling_for_Jenkins.png)
 
-### In the general page check git in the source code management pane and paste code in repository url and add credentials (by entering username and password in the fields) then click on jenkins  if you get an http 403 no valid crumb simply go to settings >configure global security > CSRF Protection > check or mark Enable proxy compatibility
+### In the general page check git in the source code management pane and paste code in repository url and add credentials (by entering my git username and password in the fields) then click on jenkins  if you get an http 403 no valid crumb simply go to settings >configure global security > CSRF Protection > check or mark Enable proxy compatibility
 
-![adding git repository in Jenkins](./images_9/adding_git%20repository_in_Jenkins.png)
+![adding git repository in Jenkins](./images_9/adding_github_repository_in_Jenkins.png)
+
+![adding credentials git username and password](./images_9/adding_username_and_password_of_git_to_jenkins.png)
+
 
 ### go to Build now, then find Build history down then click on the option 
 
